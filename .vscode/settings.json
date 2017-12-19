@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/dalbuquerque/.platformio/penv/bin:/Users/dalbuquerque/.rbenv/shims:/Users/dalbuquerque/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    }
+}
