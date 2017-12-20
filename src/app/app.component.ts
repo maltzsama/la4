@@ -1,3 +1,4 @@
+import { Student } from './student/student.model';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'jad';
+  title = 'jad exemple'
+
+  students: Student[] = [
+    { name: 'luke', isJedi: false },
+    { name: 'leia', isJedi: true, temple: 'Curousan' },
+    { name: 'frodo', isJedi: true, temple: 'Mordor' },
+
+  ]
+
 }
