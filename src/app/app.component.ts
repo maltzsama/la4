@@ -13,6 +13,7 @@ export class AppComponent {
     { name: 'luke', isJedi: false },
     { name: 'leia', isJedi: true, temple: 'Curousan' },
     { name: 'frodo', isJedi: true, temple: 'Mordor' },
+
   ]
 
 }
